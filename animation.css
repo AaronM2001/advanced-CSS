@@ -41,14 +41,13 @@ img{
     animation-duration: 3s;
     animation-direction: normal;
     animation-timing-function: ease-in-out;
-    animation-play-state: running;
 }
 @keyframes myannie{
     from{
 left: 0px;
     }
     to{
-left: 1500px;
+left: 1400px;
     }
 }
 .translateY:hover{
