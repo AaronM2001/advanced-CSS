@@ -1,0 +1,95 @@
+.dropbtn {
+    background-color: #b33d19;
+    color: white;
+    padding: 13px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover a {
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: .5em;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #b33d19;
+  }
+.section1>h1{
+    color: seagreen;
+}
+h1{
+    color: slateblue;
+}
+p{
+    font-size: 25px;
+}
+.section2>h1{
+color: tomato;
+}
+.section2>p{
+    font-size: 30px;
+}
+.section2>ul,li{
+    color: violet;
+    font-size: 20px;
+    list-style-type: none;
+    transition-property: all;
+    transition-duration: 4s;
+}
+.section2,:hover{
+    color: black;
+}
+.section3>ul.li{
+    color: chartreuse;
+}
+.section3>h1{
+    color: dimgrey;
+}
+.section3,p{
+    color: darkgoldenrod;
+}
+#world{
+color: royalblue;
+}
+#world-2{
+color: royalblue;
+}
+.spanish,h1{
+    color: darkred;
+}
+p::first-letter{
+    color: fuchsia;
+}
+p::selection{
+    color: green;
+}

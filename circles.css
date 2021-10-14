@@ -1,0 +1,87 @@
+.body{
+    background-color: rgb(236, 11, 11);
+    cursor: grabbing;
+}
+a{
+    margin: 7px;
+}
+div{
+    width: 110px;
+        	line-height: 0;
+        	padding: 50px 0;
+        	margin: 60px auto;
+            background-color: #492ccc;
+            color: crimson;
+            border-radius: 50%;         
+}
+.flexbox-continer {
+    color: crimson;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.flexbox-item{
+    height: 25px;
+    width: 42px;
+    border: double;
+}
+.flexone{
+    flex-grow: 2;
+}
+.flextwo{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.flexthree{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.flexfour{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.scale,.translateY,.skew,.threeD,.translateX,.rotate,.hover{
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 50px auto;
+    background-color: darkorange;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    transition-delay: 2s;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+.hover:hover{
+    color: yellow;
+    background-color: violet;
+}
+.rotate:hover{
+    color: teal;
+    background-color: yellowgreen;
+    transform: rotate(360deg);
+}
+.skew:hover{
+    color: violet;
+    background-color: yellow;
+    transform: skew(200deg);
+
+}
+.translateX:hover{
+    color: tomato;
+    background-color: yellow;
+    transform: translateX(30px);
+}
+.translateY:hover{
+    color: yellowgreen;
+    background-color: teal;
+    transform: translateY(50px);
+}
+.threeD:hover{
+    color: rgb(223, 39, 25);
+    background-color: white;
+    transform: rotate3d(5, 5, 5, 360deg);
+}
